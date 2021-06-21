@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public int maxHealth = 100;
+    public int currentHealth;
+
+    public Healthbar healthBar;
     public float movementSpeed;
     public Rigidbody2D rb;
     public Animator anim;
@@ -16,12 +20,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] public LayerMask groundLayers;
     [SerializeField] public Transform feet;
 
-    private void Start()
+    public void Start()
     {
         facingRight = true;
+
+        //healthbarcode
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
-    private void Update()
+    public void Update()
     {
         mx = Input.GetAxis("Horizontal");
         
@@ -38,7 +46,20 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("isRunning", false);
         }
+
+        //healthbarcode
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D other){
+        if(other.gameObject.tag =="cop"){
+            TakeDamage(20);
+        }
+    }
+
+    public void TakeDamage(int damage){
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
     }
 
     private void FixedUpdate()
@@ -48,9 +69,6 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = movement;
 
         Flip(mx);
-
-
-
     }
     void Jump()
     {
