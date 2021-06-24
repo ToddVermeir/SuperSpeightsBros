@@ -13,10 +13,11 @@ public class PlayerMovement : MonoBehaviour
     public Animator anim;
     public bool facingRight;
 
-    
+    [SerializeField] public bool canFlip;
+
     public float jumpForce = 5f;
 
-    float mx;
+    public float mx;
     [SerializeField] public LayerMask groundLayers;
     [SerializeField] public Transform feet;
 
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
         //healthbarcode
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        canFlip = true;
     }
 
     public void Update()
@@ -38,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
         }
-        if (Mathf.Abs(mx) > 0.05f)
+        if (Mathf.Abs(rb.velocity.x) >= 0.01f)
         {
             anim.SetBool("isRunning", true);
         }
@@ -68,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
 
         rb.velocity = movement;
 
-        Flip(mx);
+        Flip();
     }
     void Jump()
     {
@@ -86,9 +88,21 @@ public class PlayerMovement : MonoBehaviour
         }
         return false;
     }
-    private void Flip(float mx)
+    public void DisableFLip()
     {
-        if (mx > 0 && !facingRight || mx < 0 && facingRight)
+        canFlip = false;
+
+
+    }
+    public void EnableFLip()
+    {
+        canFlip = true;
+
+
+    }
+    private void Flip()
+    {
+        if (mx > 0 && !facingRight || mx < 0 && facingRight && canFlip)
         {
             facingRight = !facingRight;
 

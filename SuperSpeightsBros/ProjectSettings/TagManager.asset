@@ -7,11 +7,12 @@ TagManager:
   - Ground
   - cop
   - Enemy
+  - Enemy1
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Damageable
   - Water
   - UI
   - Player

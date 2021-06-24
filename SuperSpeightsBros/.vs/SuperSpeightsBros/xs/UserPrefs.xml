@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{59316DB9-29A8-DC3A-9313-BE17A503F836}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="100" Column="10" />
+      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="13" Column="3" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="91" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="777220eb-5cb5-4ed9-890e-395fab0a453f" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cf39e511-23d5-4c1c-bc99-c67a1a8e0ed8" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

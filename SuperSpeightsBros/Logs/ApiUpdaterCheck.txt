@@ -28,3 +28,84 @@ C# parse time         : 666ms
 candidates check time : 128ms
 console write time    : 2ms
 
+[api-updater (non-obsolete-error-filter)] 22/06/2021 10:14:09 a.m. : Starting /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 988.036ms
+moved types parse time: 84ms
+candidates parse time : 2ms
+C# parse time         : 454ms
+candidates check time : 52ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 23/06/2021 10:31:56 a.m. : Starting /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/todd/Documents/GitHub/SuperSpeightsBros/SuperSpeightsBros/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 876.509ms
+moved types parse time: 93ms
+candidates parse time : 2ms
+C# parse time         : 676ms
+candidates check time : 65ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 23/06/2021 10:35:34 a.m. : Starting /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 243.922ms
+moved types parse time: 112ms
+candidates parse time : 1ms
+C# parse time         : 625ms
+candidates check time : 103ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 23/06/2021 10:39:10 a.m. : Starting /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 243.844ms
+moved types parse time: 95ms
+candidates parse time : 1ms
+C# parse time         : 465ms
+candidates check time : 54ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 23/06/2021 10:46:56 a.m. : Starting /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/todd/Documents/GitHub/SuperSpeightsBros/SuperSpeightsBros/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 229.323ms
+moved types parse time: 86ms
+candidates parse time : 2ms
+C# parse time         : 600ms
+candidates check time : 57ms
+console write time    : 2ms
+
+[api-updater (non-obsolete-error-filter)] 23/06/2021 7:38:19 p.m. : Starting /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] Exception caught while loading types from /Users/todd/Documents/GitHub/SuperSpeightsBros/SuperSpeightsBros/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll (some types may not be loaded)
+	Exception of type 'System.Reflection.ReflectionTypeLoadException' was thrown.
+	  at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes(System.Reflection.Assembly,bool)
+  at System.Reflection.Assembly.GetTypes () [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at APIUpdater.NonObsoleteApiUpdaterDetector.ExtraInfoParser+<LoadTypesWithMovedFromAttributeAsync>d__3.MoveNext () [0x000c8] in <6358200448ef46218e7be4a1b6be469f>:0 
+	Could not load file or assembly 'UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 877.213ms
+moved types parse time: 181ms
+candidates parse time : 71ms
+C# parse time         : 883ms
+candidates check time : 96ms
+console write time    : 3ms
+
