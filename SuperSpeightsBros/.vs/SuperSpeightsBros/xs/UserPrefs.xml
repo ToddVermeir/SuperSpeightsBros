@@ -1,8 +1,8 @@
 ﻿<Properties StartupConfiguration="{59316DB9-29A8-DC3A-9313-BE17A503F836}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="13" Column="3" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="91" Column="5" />
+      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="59" Column="38" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="38" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +10,7 @@
           <Node name="SuperSpeightsBros" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="PlayerMovement.cs" selected="True" />
+                <Node name="signScript.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cf39e511-23d5-4c1c-bc99-c67a1a8e0ed8" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bd3d3896-1e5a-46ed-aa0b-09d41a719654" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

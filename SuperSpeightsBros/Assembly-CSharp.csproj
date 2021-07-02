@@ -56,11 +56,12 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/ENEMY1.cs" />
     <Compile Include="Assets/Scripts/AI_PATROL.cs" />
     <Compile Include="Assets/Scripts/PlayerAttack.cs" />
     <Compile Include="Assets/Scripts/Healthbar.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/EnemyScript.cs" />
+    <Compile Include="Assets/Scripts/signScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
