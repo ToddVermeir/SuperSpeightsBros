@@ -14,8 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/LevelManager.cs
+    - Assets/LevelManager.cs.meta
+    - Assets/Levels/Scripts/DialogueObject.cs
+    - Assets/Levels/Scripts/DialogueObject.cs.meta
+    - Assets/Levels/Scripts/DialogueUI.cs
+    - Assets/Levels/Scripts/DialogueUI.cs.meta
+    - Assets/Levels/Scripts/LevelManager.cs
+    - Assets/Levels/Scripts/LevelManager.cs.meta
+    - Assets/Levels/Scripts/TypewriterEffect.cs
+    - Assets/Levels/Scripts/TypewriterEffect.cs.meta
+    - Assets/Scenes/Tutorial Scene.unity
     - 
-    m_Values: 01
+    m_Values: 000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

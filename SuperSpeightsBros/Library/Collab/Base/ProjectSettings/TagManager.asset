@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - cop
+  - Enemy
+  - Enemy1
   layers:
   - Default
   - TransparentFX
@@ -13,10 +16,10 @@ TagManager:
   - Water
   - UI
   - Player
-  - 
-  - Ground
   - CameraBounds
+  - Ground
   - 
+  - Damageable
   - 
   - 
   - 

@@ -45,3 +45,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Grass
+    uniqueID: 2369412815
+    locked: 0
+  - name: Ground
+    uniqueID: 3506561269
+    locked: 0

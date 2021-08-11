@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 2a3731735ac7cc4419e0514deb2f65a6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4512658506971738980
+    second: Tutorial Tilemap 2_0
+  - first:
+      213: -2232598230680877734
+    second: Tutorial Tilemap 2_1
+  - first:
+      213: 1175504196132925511
+    second: Tutorial Tilemap 2_2
+  - first:
+      213: -1259839069770619219
+    second: Tutorial Tilemap 2_3
+  - first:
+      213: 1542459910874485990
+    second: Tutorial Tilemap 2_4
+  - first:
+      213: -1540060688775327732
+    second: Tutorial Tilemap 2_5
+  - first:
+      213: -7449617867072233334
+    second: Tutorial Tilemap 2_6
+  - first:
+      213: -6802344963465640295
+    second: Tutorial Tilemap 2_7
+  - first:
+      213: -7754051076869019597
+    second: Tutorial Tilemap 2_8
+  - first:
+      213: -7746458975455622276
+    second: Tutorial Tilemap 2_9
+  - first:
+      213: 8357517590863268278
+    second: Tutorial Tilemap 2_10
+  - first:
+      213: 2925273274590151970
+    second: Tutorial Tilemap 2_11
+  - first:
+      213: 1559289745009914570
+    second: Tutorial Tilemap 2_12
+  - first:
+      213: 6196036470084729995
+    second: Tutorial Tilemap 2_13
+  - first:
+      213: 8569717428911383866
+    second: Tutorial Tilemap 2_14
+  - first:
+      213: 3692076520396952555
+    second: Tutorial Tilemap 2_15
+  - first:
+      213: -8324188119075845825
+    second: Tutorial Tilemap 2_16
+  - first:
+      213: -958976890962036297
+    second: Tutorial Tilemap 2_17
+  - first:
+      213: -9121744832096265187
+    second: Tutorial Tilemap 2_18
+  - first:
+      213: -8778210552024778995
+    second: Tutorial Tilemap 2_19
+  - first:
+      213: -3129932989607553849
+    second: Tutorial Tilemap 2_20
+  - first:
+      213: -5487075633151326010
+    second: Tutorial Tilemap 2_21
+  - first:
+      213: 7626206921399728383
+    second: Tutorial Tilemap 2_22
+  - first:
+      213: 3866493533632955508
+    second: Tutorial Tilemap 2_23
+  - first:
+      213: 4431708431249314454
+    second: Tutorial Tilemap 2_24
+  - first:
+      213: 2538899986322915248
+    second: Tutorial Tilemap 2_25
+  - first:
+      213: -6430036443807016098
+    second: Tutorial Tilemap 2_26
+  - first:
+      213: -4534519477159989499
+    second: Tutorial Tilemap 2_27
+  - first:
+      213: -3377330021747519564
+    second: Tutorial Tilemap 2_28
+  - first:
+      213: -9185612893035301611
+    second: Tutorial Tilemap 2_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c0e4b3ff0df51c0800000000000000
+      internalID: -4512658506971738980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55c91eecb73401e0800000000000000
+      internalID: -2232598230680877734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740fb7a96da305010800000000000000
+      internalID: 1175504196132925511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6e92c7a07248ee0800000000000000
+      internalID: -1259839069770619219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e454fbdd1be76510800000000000000
+      internalID: 1542459910874485990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00d00196fa90aae0800000000000000
+      internalID: -1540060688775327732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80a1c80504ad9890800000000000000
+      internalID: -7449617867072233334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99686fccb473991a0800000000000000
+      internalID: -6802344963465640295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338acf8d0a3146490800000000000000
+      internalID: -7754051076869019597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial Tilemap 2_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bc4d4ba9c0f7490800000000000000
+      internalID: -7746458975455622276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

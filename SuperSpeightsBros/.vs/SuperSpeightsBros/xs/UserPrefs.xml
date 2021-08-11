@@ -1,16 +1,22 @@
 ﻿<Properties StartupConfiguration="{59316DB9-29A8-DC3A-9313-BE17A503F836}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Levels/Scripts/PlayerAttack.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="59" Column="38" />
-      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="38" Column="12" />
+      <File FileName="Assets/Levels/Scripts/LevelManager.cs" Line="16" Column="10" />
+      <File FileName="Assets/MainMenu.cs" />
+      <File FileName="Assets/Weapon.cs" />
+      <File FileName="Assets/Projectile.cs" />
+      <File FileName="Assets/Enemy.cs" />
+      <File FileName="Assets/Levels/Scripts/PlayerAttack.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SuperSpeightsBros" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="signScript.cs" selected="True" />
+              <Node name="Levels" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="PlayerAttack.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -20,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bd3d3896-1e5a-46ed-aa0b-09d41a719654" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="60fc5c08-7828-43ec-893c-1b9b03648d0a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
